@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1200">
+  <rect width="100%" height="100%" fill="black"/>
+
+  <!-- Shield -->
+  <g transform="translate(250,100)">
+    <path d="M250 0 L500 90 L500 320 C500 460 380 540 250 600 C120 540 0 460 0 320 L0 90 Z"
+          fill="none" stroke="#E10600" stroke-width="16"/>
+    <path d="M250 30 L470 110 L470 320 C470 430 360 500 250 550 C140 500 30 430 30 320 L30 110 Z"
+          fill="none" stroke="#FFFFFF" stroke-width="10"/>
+
+    <!-- TM -->
+    <g fill="#E10600">
+      <rect x="120" y="140" width="260" height="50"/>
+      <rect x="240" y="140" width="50" height="220"/>
+      <path d="M130 230 L190 230 L250 300 L310 230 L370 230 L250 360 Z"/>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <text x="500" y="760" text-anchor="middle" font-size="120" fill="#FFFFFF" font-family="Arial Black">
+    COMBAT
+  </text>
+
+  <text x="500" y="870" text-anchor="middle" font-size="110" fill="#E10600" font-family="Arial Black">
+    ACADEMY
+  </text>
+
+  <text x="500" y="960" text-anchor="middle" font-size="60" fill="#FFFFFF" letter-spacing="4" font-family="Arial">
+    BJJ • MMA • MUAY THAI • WRESTLING
+  </text>
+</svg>
